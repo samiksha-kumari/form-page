@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Page</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./google-forms.png">
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <form>
+        <div>
+            Name: <input type="text" placeholder="enter your name">
+        </div>
+        <br>
+        <div>
+            <label>Father Name</label>
+            <input type="text" placeholder="father name">
+        </div>
+        <br>
+        <div>
+        <label>Postal Address</label>
+        <input type="text">
+    </div>
+    <br>
+    <div>
+        <label>Personal Address</label>
+        <input type="text">
+    </div>
+    <br>
+    <div>
+        <label>Sex: </label>
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female
+        <input type="radio" name="gender" value="others">Other
+
+    </div>
+    <br>
+   <div>
+    <label for="city-select">City:</label>
+
+    <select name="cities" id="city-select">
+      <option value="">--select--</option>
+      <option value="patna">Patna</option>
+      <option value="gurgaon">Gurgaon</option>
+      <option value="noida">Noida</option>
+      <option value="bengaluru">Bengaluru</option>
+      <option value="jabalpur">Jabalpur</option>
+    </select>
+    </div>
+    <br>
+       <div>
+        <label for="course-select">Course:</label>
+
+        <select name="courses" id="course-select">
+          <option value="">--select--</option>
+          <option value="bachelors">Bachelor</option>
+          <option value="master">Masters</option>
+          <option value="mba">MBA</option>
+          <option value="ms">MS</option>
+        </select>
+       </div>
+       <br>
+       <div>
+        <label for="district-select">District:</label>
+    
+        <select name="district" id="district-select">
+          <option value="">--select--</option>
+          <option value="patna">Patna</option>
+          <option value="mumbai">Mumbai</option>
+          <option value="assam">Assam</option>
+          <option value="bengaluru">Bengaluru</option>
+          <option value="lucknow">Lucknow</option>
+        </select>
+       </div>
+       <br>
+       <div>
+        <label for="state-select">State:</label>
+    
+        <select name="states" id="state-select">
+          <option value="">--select--</option>
+          <option value="bihar">Bihar</option>
+          <option value="maharastra">Maharastra</option>
+          <option value="gangtok">Gangtok</option>
+          <option value="karnataka">Karnataka</option>
+          <option value="madhyapradesh">Madhya Pradesh</option>
+        </select>
+       </div>
+       <br>
+    <div>
+        <label>Pin Code</label>
+        <input type="text" name="pincode">
+    </div>
+    <br>
+    <div>
+        <label>EmailId:</label>
+        <input type="email" name="email">
+    </div>
+    <br>
+    <div>
+        <label>DOB:</label>
+        <input type="date" name="dob">
+    </div>
+    <br>
+    <div>
+        <label>Mobile No:</label>
+        <input type="number" name="mobile" maxlength="9">
+    </div>
+    <br>
+    <input type="reset" name="reset"> <input type="submit" name="submit"> 
+    </form>
+</body>
+</html>
